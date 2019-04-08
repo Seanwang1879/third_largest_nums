@@ -35,7 +35,7 @@ void pop(int *array, int length, int *addr)
 void 3_largest(int *array00, int *array01, int length00, int length01, int *addr)
 {
 	pop(array00, length00, addr);
-	pop(array01, length01, addr);
+	pop(array01, length01, &addr[2]);
 
 	return ;
 }
