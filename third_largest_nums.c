@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
+//两个无序的数组，找出第三的数并排序。
+//先将两数组有序，再将两数组前两个数归并，找出第三大的数。
+
 void pop(int *array, int length, int *addr)
 {
 	int i,j;
